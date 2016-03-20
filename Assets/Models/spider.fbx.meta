@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 77ccc71dae7e52243b7d94847b8bba84
+timeCreated: 1458387365
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body
+    100004: Cube.003_Cube.001_Cube.003_Cube.008
+    100006: LB_LEG1
+    100008: LB_LEG2
+    100010: LB_LEG3
+    100012: LB_LEG3_end
+    100014: LF_3
+    100016: LF_3_end
+    100018: LF_LEG1
+    100020: LF_LEG2
+    100022: RB_LEG1
+    100024: RB_LEG2
+    100026: RB_LEG3
+    100028: RB_LEG3_end
+    100030: RF_LEG1
+    100032: RF_LEG2
+    100034: RF_LEG3
+    100036: RF_LEG3_end
+    100038: //RootNode
+    100040: tail1
+    100042: tail2
+    100044: tail3
+    100046: tail4
+    100048: tail6
+    100050: tail6_end
+    400000: Armature
+    400002: body
+    400004: Cube.003_Cube.001_Cube.003_Cube.008
+    400006: LB_LEG1
+    400008: LB_LEG2
+    400010: LB_LEG3
+    400012: LB_LEG3_end
+    400014: LF_3
+    400016: LF_3_end
+    400018: LF_LEG1
+    400020: LF_LEG2
+    400022: RB_LEG1
+    400024: RB_LEG2
+    400026: RB_LEG3
+    400028: RB_LEG3_end
+    400030: RF_LEG1
+    400032: RF_LEG2
+    400034: RF_LEG3
+    400036: RF_LEG3_end
+    400038: //RootNode
+    400040: tail1
+    400042: tail2
+    400044: tail3
+    400046: tail4
+    400048: tail6
+    400050: tail6_end
+    4300000: Cube.003_Cube.001_Cube.003_Cube.008
+    7400000: Armature|attack
+    7400002: Armature|walk.001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cube.003_Cube.001_Cube.003_Cube.008
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|walk.001
+      takeName: Armature|walk
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/tail1
+        weight: 1
+      - path: Armature/tail1/body
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1/LB_LEG2
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1/LB_LEG2/LB_LEG3
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1/LB_LEG2/LB_LEG3/LB_LEG3_end
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1/LF_LEG2
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1/LF_LEG2/LF_3
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1/LF_LEG2/LF_3/LF_3_end
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1/RB_LEG2
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1/RB_LEG2/RB_LEG3
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1/RB_LEG2/RB_LEG3/RB_LEG3_end
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1/RF_LEG2
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1/RF_LEG2/RF_LEG3
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1/RF_LEG2/RF_LEG3/RF_LEG3_end
+        weight: 1
+      - path: Armature/tail2
+        weight: 1
+      - path: Armature/tail2/tail3
+        weight: 1
+      - path: Armature/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/tail2/tail3/tail4/tail6
+        weight: 1
+      - path: Armature/tail2/tail3/tail4/tail6/tail6_end
+        weight: 1
+      - path: Cube.003_Cube.001_Cube.003_Cube.008
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|attack
+      takeName: Armature|attack
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/tail1
+        weight: 1
+      - path: Armature/tail1/body
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1/LB_LEG2
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1/LB_LEG2/LB_LEG3
+        weight: 1
+      - path: Armature/tail1/body/LB_LEG1/LB_LEG2/LB_LEG3/LB_LEG3_end
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1/LF_LEG2
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1/LF_LEG2/LF_3
+        weight: 1
+      - path: Armature/tail1/body/LF_LEG1/LF_LEG2/LF_3/LF_3_end
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1/RB_LEG2
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1/RB_LEG2/RB_LEG3
+        weight: 1
+      - path: Armature/tail1/body/RB_LEG1/RB_LEG2/RB_LEG3/RB_LEG3_end
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1/RF_LEG2
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1/RF_LEG2/RF_LEG3
+        weight: 1
+      - path: Armature/tail1/body/RF_LEG1/RF_LEG2/RF_LEG3/RF_LEG3_end
+        weight: 1
+      - path: Armature/tail2
+        weight: 1
+      - path: Armature/tail2/tail3
+        weight: 1
+      - path: Armature/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/tail2/tail3/tail4/tail6
+        weight: 1
+      - path: Armature/tail2/tail3/tail4/tail6/tail6_end
+        weight: 1
+      - path: Cube.003_Cube.001_Cube.003_Cube.008
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

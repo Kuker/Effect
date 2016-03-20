@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 28d355af52b780a4199c940c97f234f1
+timeCreated: 1458372613
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: chest
+    100004: foot_L
+    100006: foot_L_end
+    100008: foot_R
+    100010: foot_R_end
+    100012: forearm.L
+    100014: forearm.R
+    100016: hand.L
+    100018: hand.L_end
+    100020: hand.R
+    100022: hand.R_end
+    100024: hips
+    100026: Lamp
+    100028: robot_fallus
+    100030: //RootNode
+    100032: shin.L
+    100034: shin.R
+    100036: Sphere.005_Sphere.013
+    100038: spine
+    100040: thigh.L
+    100042: thigh.R
+    100044: upper_arm.L
+    100046: upper_arm.R
+    400000: Camera
+    400002: chest
+    400004: foot_L
+    400006: foot_L_end
+    400008: foot_R
+    400010: foot_R_end
+    400012: forearm.L
+    400014: forearm.R
+    400016: hand.L
+    400018: hand.L_end
+    400020: hand.R
+    400022: hand.R_end
+    400024: hips
+    400026: Lamp
+    400028: robot_fallus
+    400030: //RootNode
+    400032: shin.L
+    400034: shin.R
+    400036: Sphere.005_Sphere.013
+    400038: spine
+    400040: thigh.L
+    400042: thigh.R
+    400044: upper_arm.L
+    400046: upper_arm.R
+    4300000: Sphere.005_Sphere.013
+    7400000: robot_fallus|attack
+    7400002: robot_fallus|walk
+    7400004: robot_fallus|walk.001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Sphere.005_Sphere.013
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: robot_fallus|walk.001
+      takeName: robot_fallus|walk.001
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: robot_fallus
+        weight: 1
+      - path: robot_fallus/hips
+        weight: 1
+      - path: robot_fallus/hips/spine
+        weight: 1
+      - path: robot_fallus/hips/spine/chest
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: robot_fallus/hips/thigh.L
+        weight: 1
+      - path: robot_fallus/hips/thigh.L/shin.L
+        weight: 1
+      - path: robot_fallus/hips/thigh.L/shin.L/foot_L
+        weight: 1
+      - path: robot_fallus/hips/thigh.L/shin.L/foot_L/foot_L_end
+        weight: 1
+      - path: robot_fallus/hips/thigh.R
+        weight: 1
+      - path: robot_fallus/hips/thigh.R/shin.R
+        weight: 1
+      - path: robot_fallus/hips/thigh.R/shin.R/foot_R
+        weight: 1
+      - path: robot_fallus/hips/thigh.R/shin.R/foot_R/foot_R_end
+        weight: 1
+      - path: Sphere.005_Sphere.013
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: robot_fallus|attack
+      takeName: robot_fallus|attack
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: robot_fallus
+        weight: 1
+      - path: robot_fallus/hips
+        weight: 1
+      - path: robot_fallus/hips/spine
+        weight: 1
+      - path: robot_fallus/hips/spine/chest
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: robot_fallus/hips/spine/chest/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: robot_fallus/hips/thigh.L
+        weight: 1
+      - path: robot_fallus/hips/thigh.L/shin.L
+        weight: 1
+      - path: robot_fallus/hips/thigh.L/shin.L/foot_L
+        weight: 1
+      - path: robot_fallus/hips/thigh.L/shin.L/foot_L/foot_L_end
+        weight: 1
+      - path: robot_fallus/hips/thigh.R
+        weight: 1
+      - path: robot_fallus/hips/thigh.R/shin.R
+        weight: 1
+      - path: robot_fallus/hips/thigh.R/shin.R/foot_R
+        weight: 1
+      - path: robot_fallus/hips/thigh.R/shin.R/foot_R/foot_R_end
+        weight: 1
+      - path: Sphere.005_Sphere.013
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
